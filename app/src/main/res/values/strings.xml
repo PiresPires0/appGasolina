@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tentativa_Curso2</string>
+    <string name="txt_titulo">Lista de Curso</string>
+    <string name="txt_nome">Nome</string>
+    <string name="txt_sobrenome">Sobrenome</string>
+    <string name="txt_telefone">Telefone\n</string>
+    <string name="txt_tipo_de_curso">Tipo curso</string>
+    <string name="button_tipo_de_curso">Button_tipo_de_curso</string>
+    <string name="button_enviar">Enviar</string>
+    <string name="Enviar">Enviar\n</string>
+    <string name="Limpar">Limpar\n</string>
+    <string name="Salvar">Salvar</string>
+    <string name="salvar">Salvar</string>
+    <string name="limpar">Limpar</string>
+    <string name="enviar">Enviar</string>
+    <string name="Selecione_o_curso">Selecione o curso</string>
+    <string name="todo">TODO</string>
+    <string name="Imagem">TODO</string>
+</resources>

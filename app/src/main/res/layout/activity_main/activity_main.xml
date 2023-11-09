@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt_telefone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".View.MainActivity">
+
+    <EditText
+        android:id="@+id/txt_Nome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:autofillHints="TopoDoConteudo"
+        android:ems="10"
+        android:hint="@string/txt_nome"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/txt_nome"
+        app:layout_constraintBottom_toTopOf="@+id/txt_sobrenome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/txt_sobrenome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:autofillHints="Entrada_Sobrenome"
+        android:ems="10"
+        android:hint="@string/txt_sobrenome"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/txt_sobrenome"
+        app:layout_constraintBottom_toTopOf="@+id/txt_telefone0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/txt_telefone0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:autofillHints="entrada_telefone"
+        android:ems="10"
+        android:freezesText="true"
+        android:hint="@string/txt_telefone"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/txt_telefone"
+        app:layout_constraintBottom_toTopOf="@+id/txt_Tipo_Curso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/txt_Tipo_Curso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="entrada_tipo_curso"
+        android:ems="10"
+        android:hint="@string/txt_tipo_de_curso"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/txt_tipo_de_curso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/txt_Titulo"
+        android:layout_width="186dp"
+        android:layout_height="29dp"
+        android:text="@string/txt_titulo"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_Nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <Button
+        android:id="@+id/button_Salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="152dp"
+        android:text="@string/salvar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Tipo_Curso" />
+
+    <Button
+        android:id="@+id/button_Limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/limpar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Tipo_Curso" />
+
+    <Button
+        android:id="@+id/button_Enviar"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/enviar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_Limpar"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toEndOf="@+id/button_Salvar" />
+
+    <Spinner
+        android:id="@+id/lista_spnner"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_Enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Tipo_Curso"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/nome_spinner"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/Selecione_o_curso"
+        android:textAlignment="center"
+        android:textDirection="firstStrongLtr"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/lista_spnner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Tipo_Curso"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="3dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
