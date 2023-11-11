@@ -1,4 +1,4 @@
-package devandroid.gabriel.tentativa_curso2;
+package devandroid.gabriel.appGasEta;
 
 import org.junit.Test;
 

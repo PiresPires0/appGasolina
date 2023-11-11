@@ -1,4 +1,4 @@
-package devandroid.gabriel.tentativa_curso2.Model;
+package devandroid.gabriel.appGasEta.Model;
 
 
 

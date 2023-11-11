@@ -1,4 +1,4 @@
-package devandroid.gabriel.tentativa_curso2.View;
+package devandroid.gabriel.appGasEta.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,10 +16,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import devandroid.gabriel.tentativa_curso2.Controller.Curso_Controller;
-import devandroid.gabriel.tentativa_curso2.Controller.PessoaControler;
-import devandroid.gabriel.tentativa_curso2.Model.Pessoa;
-import devandroid.gabriel.tentativa_curso2.R;
+import devandroid.gabriel.appGasEta.Controller.Curso_Controller;
+import devandroid.gabriel.appGasEta.Controller.PessoaControler;
+import devandroid.gabriel.appGasEta.Model.Pessoa;
+import devandroid.gabriel.appgasolina.R;
 
 public class MainActivity extends AppCompatActivity {
     Pessoa pessoa;

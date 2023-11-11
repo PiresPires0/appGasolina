@@ -1,4 +1,4 @@
-package devandroid.gabriel.tentativa_curso2.View;
+package devandroid.gabriel.appGasEta.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import devandroid.gabriel.tentativa_curso2.R;
+
+import devandroid.gabriel.appgasolina.R;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
@@ -23,7 +24,7 @@ public static final int TIME_SPLASH = 3000;
 
     private void comutar_tela_splash() {
         new Handler().postDelayed(() -> {
-            Intent Tela_Principal = new Intent(SplashActivity.this, MainActivity.class);
+            Intent Tela_Principal = new Intent(SplashActivity.this, GasEtaActivity.class);
             startActivity(Tela_Principal);
             finish();
         },TIME_SPLASH);

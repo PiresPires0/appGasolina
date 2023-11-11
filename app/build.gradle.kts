@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "devandroid.gabriel.tentativa_curso2"
+    namespace = "devandroid.gabriel.appgasolina"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "devandroid.gabriel.tentativa_curso2"
+        applicationId = "devandroid.gabriel.appgasolina"
         minSdk = 19
         targetSdk = 32
         versionCode = 1

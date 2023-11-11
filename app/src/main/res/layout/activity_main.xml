@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:textAlignment="center"
-    tools:context=".View.MainActivity">
+    tools:context="devandroid.gabriel.appGasEta.View.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -40,10 +40,10 @@
                 android:layout_marginEnd="16dp"
                 android:autofillHints="TopoDoConteudo"
                 android:ems="10"
-                android:hint="@string/txt_nome"
+                android:hint="@string/txt_Gasolina"
                 android:inputType="text"
                 android:minHeight="48dp"
-                android:text="@string/txt_nome" />
+                android:text="@string/txt_Gasolina" />
 
             <EditText
                 android:id="@+id/txt_sobrenome"
@@ -54,10 +54,10 @@
                 android:layout_marginEnd="16dp"
                 android:autofillHints="Entrada_Sobrenome"
                 android:ems="10"
-                android:hint="@string/txt_sobrenome"
+                android:hint="@string/txt_Etanol"
                 android:inputType="text"
                 android:minHeight="48dp"
-                android:text="@string/txt_sobrenome" />
+                android:text="@string/txt_Etanol" />
 
             <EditText
                 android:id="@+id/txt_telefone0"
@@ -122,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:text="@string/salvar" />
+                    android:text="@string/Salvar" />
 
                 <Button
                     android:id="@+id/button_Limpar"

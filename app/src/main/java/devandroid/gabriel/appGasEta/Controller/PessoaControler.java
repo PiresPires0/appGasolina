@@ -1,11 +1,11 @@
-package devandroid.gabriel.tentativa_curso2.Controller;
+package devandroid.gabriel.appGasEta.Controller;
 
 import android.content.SharedPreferences;
 
 
 
-import devandroid.gabriel.tentativa_curso2.Model.Pessoa;
-import devandroid.gabriel.tentativa_curso2.View.MainActivity;
+import devandroid.gabriel.appGasEta.Model.Pessoa;
+import devandroid.gabriel.appGasEta.View.MainActivity;
 
 
     public class PessoaControler {

@@ -1,10 +1,10 @@
-package devandroid.gabriel.tentativa_curso2.Controller;
+package devandroid.gabriel.appGasEta.Controller;
 
 
 import java.util.ArrayList;
 
 
-import devandroid.gabriel.tentativa_curso2.Model.Curso_desejado;
+import devandroid.gabriel.appGasEta.Model.Curso_desejado;
 
 public class Curso_Controller {
 
